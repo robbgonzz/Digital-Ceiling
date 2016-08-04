@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37F2015A1D401BFE00DA0429 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F201591D401BFE00DA0429 /* AppDelegate.swift */; };
+		37F2015C1D401BFE00DA0429 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F2015B1D401BFE00DA0429 /* ViewController.swift */; };
+		37F2015F1D401BFE00DA0429 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37F2015D1D401BFE00DA0429 /* Main.storyboard */; };
+		37F201611D401BFE00DA0429 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37F201601D401BFE00DA0429 /* Assets.xcassets */; };
+		37F201641D401BFE00DA0429 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37F201621D401BFE00DA0429 /* LaunchScreen.storyboard */; };
+		37F2016F1D401BFE00DA0429 /* Digital_CeilingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F2016E1D401BFE00DA0429 /* Digital_CeilingsTests.swift */; };
+		37F2017A1D401BFE00DA0429 /* Digital_CeilingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F201791D401BFE00DA0429 /* Digital_CeilingsUITests.swift */; };
+		37F201881D413A5D00DA0429 /* CISCO.png in Resources */ = {isa = PBXBuildFile; fileRef = 37F201871D413A5D00DA0429 /* CISCO.png */; };
+		37F2018A1D413AB700DA0429 /* Desktop in Resources */ = {isa = PBXBuildFile; fileRef = 37F201891D413AB700DA0429 /* Desktop */; };
+		37F2018C1D42A10100DA0429 /* wallpaper_20081020040710_12755325262.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37F2018B1D42A10100DA0429 /* wallpaper_20081020040710_12755325262.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37F2016B1D401BFE00DA0429 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37F2014E1D401BFD00DA0429 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37F201551D401BFE00DA0429;
+			remoteInfo = "Digital Ceilings";
+		};
+		37F201761D401BFE00DA0429 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37F2014E1D401BFD00DA0429 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37F201551D401BFE00DA0429;
+			remoteInfo = "Digital Ceilings";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37F201561D401BFE00DA0429 /* Digital Ceilings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Digital Ceilings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F201591D401BFE00DA0429 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37F2015B1D401BFE00DA0429 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		37F2015E1D401BFE00DA0429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37F201601D401BFE00DA0429 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37F201631D401BFE00DA0429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37F201651D401BFE00DA0429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37F2016A1D401BFE00DA0429 /* Digital CeilingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Digital CeilingsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F2016E1D401BFE00DA0429 /* Digital_CeilingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digital_CeilingsTests.swift; sourceTree = "<group>"; };
+		37F201701D401BFE00DA0429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37F201751D401BFE00DA0429 /* Digital CeilingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Digital CeilingsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F201791D401BFE00DA0429 /* Digital_CeilingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digital_CeilingsUITests.swift; sourceTree = "<group>"; };
+		37F2017B1D401BFE00DA0429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37F201871D413A5D00DA0429 /* CISCO.png */ = {isa = PBXFileReference; explicitFileType = image.jpeg; name = CISCO.png; path = ../../Desktop/CISCO.png; sourceTree = "<group>"; };
+		37F201891D413AB700DA0429 /* Desktop */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Desktop; path = ../../Desktop; sourceTree = "<group>"; };
+		37F2018B1D42A10100DA0429 /* wallpaper_20081020040710_12755325262.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wallpaper_20081020040710_12755325262.jpg; path = ../../Desktop/wallpaper_20081020040710_12755325262.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37F201531D401BFE00DA0429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37F201671D401BFE00DA0429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37F201721D401BFE00DA0429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37F2014D1D401BFD00DA0429 = {
+			isa = PBXGroup;
+			children = (
+				37F201581D401BFE00DA0429 /* Digital Ceilings */,
+				37F2016D1D401BFE00DA0429 /* Digital CeilingsTests */,
+				37F201781D401BFE00DA0429 /* Digital CeilingsUITests */,
+				37F201571D401BFE00DA0429 /* Products */,
+				37F201891D413AB700DA0429 /* Desktop */,
+				37F201871D413A5D00DA0429 /* CISCO.png */,
+				37F2018B1D42A10100DA0429 /* wallpaper_20081020040710_12755325262.jpg */,
+			);
+			sourceTree = "<group>";
+		};
+		37F201571D401BFE00DA0429 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37F201561D401BFE00DA0429 /* Digital Ceilings.app */,
+				37F2016A1D401BFE00DA0429 /* Digital CeilingsTests.xctest */,
+				37F201751D401BFE00DA0429 /* Digital CeilingsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37F201581D401BFE00DA0429 /* Digital Ceilings */ = {
+			isa = PBXGroup;
+			children = (
+				37F201591D401BFE00DA0429 /* AppDelegate.swift */,
+				37F2015B1D401BFE00DA0429 /* ViewController.swift */,
+				37F2015D1D401BFE00DA0429 /* Main.storyboard */,
+				37F201601D401BFE00DA0429 /* Assets.xcassets */,
+				37F201621D401BFE00DA0429 /* LaunchScreen.storyboard */,
+				37F201651D401BFE00DA0429 /* Info.plist */,
+			);
+			path = "Digital Ceilings";
+			sourceTree = "<group>";
+		};
+		37F2016D1D401BFE00DA0429 /* Digital CeilingsTests */ = {
+			isa = PBXGroup;
+			children = (
+				37F2016E1D401BFE00DA0429 /* Digital_CeilingsTests.swift */,
+				37F201701D401BFE00DA0429 /* Info.plist */,
+			);
+			path = "Digital CeilingsTests";
+			sourceTree = "<group>";
+		};
+		37F201781D401BFE00DA0429 /* Digital CeilingsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37F201791D401BFE00DA0429 /* Digital_CeilingsUITests.swift */,
+				37F2017B1D401BFE00DA0429 /* Info.plist */,
+			);
+			path = "Digital CeilingsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37F201551D401BFE00DA0429 /* Digital Ceilings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37F2017E1D401BFE00DA0429 /* Build configuration list for PBXNativeTarget "Digital Ceilings" */;
+			buildPhases = (
+				37F201521D401BFE00DA0429 /* Sources */,
+				37F201531D401BFE00DA0429 /* Frameworks */,
+				37F201541D401BFE00DA0429 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Digital Ceilings";
+			productName = "Digital Ceilings";
+			productReference = 37F201561D401BFE00DA0429 /* Digital Ceilings.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37F201691D401BFE00DA0429 /* Digital CeilingsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37F201811D401BFE00DA0429 /* Build configuration list for PBXNativeTarget "Digital CeilingsTests" */;
+			buildPhases = (
+				37F201661D401BFE00DA0429 /* Sources */,
+				37F201671D401BFE00DA0429 /* Frameworks */,
+				37F201681D401BFE00DA0429 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37F2016C1D401BFE00DA0429 /* PBXTargetDependency */,
+			);
+			name = "Digital CeilingsTests";
+			productName = "Digital CeilingsTests";
+			productReference = 37F2016A1D401BFE00DA0429 /* Digital CeilingsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37F201741D401BFE00DA0429 /* Digital CeilingsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37F201841D401BFE00DA0429 /* Build configuration list for PBXNativeTarget "Digital CeilingsUITests" */;
+			buildPhases = (
+				37F201711D401BFE00DA0429 /* Sources */,
+				37F201721D401BFE00DA0429 /* Frameworks */,
+				37F201731D401BFE00DA0429 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37F201771D401BFE00DA0429 /* PBXTargetDependency */,
+			);
+			name = "Digital CeilingsUITests";
+			productName = "Digital CeilingsUITests";
+			productReference = 37F201751D401BFE00DA0429 /* Digital CeilingsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37F2014E1D401BFD00DA0429 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Robert Gonzalez";
+				TargetAttributes = {
+					37F201551D401BFE00DA0429 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					37F201691D401BFE00DA0429 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 37F201551D401BFE00DA0429;
+					};
+					37F201741D401BFE00DA0429 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 37F201551D401BFE00DA0429;
+					};
+				};
+			};
+			buildConfigurationList = 37F201511D401BFD00DA0429 /* Build configuration list for PBXProject "Digital Ceilings" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37F2014D1D401BFD00DA0429;
+			productRefGroup = 37F201571D401BFE00DA0429 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37F201551D401BFE00DA0429 /* Digital Ceilings */,
+				37F201691D401BFE00DA0429 /* Digital CeilingsTests */,
+				37F201741D401BFE00DA0429 /* Digital CeilingsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37F201541D401BFE00DA0429 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F201641D401BFE00DA0429 /* LaunchScreen.storyboard in Resources */,
+				37F201611D401BFE00DA0429 /* Assets.xcassets in Resources */,
+				37F2018C1D42A10100DA0429 /* wallpaper_20081020040710_12755325262.jpg in Resources */,
+				37F2018A1D413AB700DA0429 /* Desktop in Resources */,
+				37F2015F1D401BFE00DA0429 /* Main.storyboard in Resources */,
+				37F201881D413A5D00DA0429 /* CISCO.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37F201681D401BFE00DA0429 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37F201731D401BFE00DA0429 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37F201521D401BFE00DA0429 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F2015C1D401BFE00DA0429 /* ViewController.swift in Sources */,
+				37F2015A1D401BFE00DA0429 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37F201661D401BFE00DA0429 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F2016F1D401BFE00DA0429 /* Digital_CeilingsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37F201711D401BFE00DA0429 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F2017A1D401BFE00DA0429 /* Digital_CeilingsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37F2016C1D401BFE00DA0429 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37F201551D401BFE00DA0429 /* Digital Ceilings */;
+			targetProxy = 37F2016B1D401BFE00DA0429 /* PBXContainerItemProxy */;
+		};
+		37F201771D401BFE00DA0429 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37F201551D401BFE00DA0429 /* Digital Ceilings */;
+			targetProxy = 37F201761D401BFE00DA0429 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37F2015D1D401BFE00DA0429 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37F2015E1D401BFE00DA0429 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37F201621D401BFE00DA0429 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37F201631D401BFE00DA0429 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37F2017C1D401BFE00DA0429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37F2017D1D401BFE00DA0429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37F2017F1D401BFE00DA0429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Digital Ceilings/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cisco.Digital-Ceilings";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		37F201801D401BFE00DA0429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Digital Ceilings/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cisco.Digital-Ceilings";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		37F201821D401BFE00DA0429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Digital CeilingsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cisco.Digital-CeilingsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Digital Ceilings.app/Digital Ceilings";
+			};
+			name = Debug;
+		};
+		37F201831D401BFE00DA0429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Digital CeilingsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cisco.Digital-CeilingsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Digital Ceilings.app/Digital Ceilings";
+			};
+			name = Release;
+		};
+		37F201851D401BFE00DA0429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Digital CeilingsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cisco.Digital-CeilingsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Digital Ceilings";
+			};
+			name = Debug;
+		};
+		37F201861D401BFE00DA0429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Digital CeilingsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cisco.Digital-CeilingsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Digital Ceilings";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37F201511D401BFD00DA0429 /* Build configuration list for PBXProject "Digital Ceilings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37F2017C1D401BFE00DA0429 /* Debug */,
+				37F2017D1D401BFE00DA0429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37F2017E1D401BFE00DA0429 /* Build configuration list for PBXNativeTarget "Digital Ceilings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37F2017F1D401BFE00DA0429 /* Debug */,
+				37F201801D401BFE00DA0429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37F201811D401BFE00DA0429 /* Build configuration list for PBXNativeTarget "Digital CeilingsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37F201821D401BFE00DA0429 /* Debug */,
+				37F201831D401BFE00DA0429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37F201841D401BFE00DA0429 /* Build configuration list for PBXNativeTarget "Digital CeilingsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37F201851D401BFE00DA0429 /* Debug */,
+				37F201861D401BFE00DA0429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37F2014E1D401BFD00DA0429 /* Project object */;
+}
